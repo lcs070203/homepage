@@ -1,0 +1,67 @@
+*{
+ list-style: none;
+  text-decoration:none;
+ border-collapse:collapse;
+  margin:0px;
+  padding:0px;
+  color:black;
+  font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .intro_bg{
+    background-image: url(image/intro.png);
+    width: 1920px;
+    height: 718px;
+
+  }
+    .header{
+        width: 1280px;
+        margin: auto;
+
+        display: flex;
+         height: 86px;
+         margin-top:24px;
+    }
+    .searcharea{
+      width: 300px;
+      height: 40px;
+      background-color:rgba(0,0,0,0.5);
+      border-radius: 5px;
+      margin-top: 24px;
+         }
+    .searcharea > form > input {
+      border:none;
+      background:rgba(0, 0, 0, 0.0);
+      width: 240px;
+      height: 40px;
+      color: green;
+      padding-left: 10px
+    }
+    .searcharea > form > span{
+      width: 50px;
+      color:white;
+      font-weight:bold;
+      cursor:pointer;
+
+    }
+
+
+
+.nav{
+   display: flex;
+  justify-content: flex-end;
+   line-height: 86px;
+   width:calc(1280px - 300px);
+
+}
+
+.nav > li{
+  margin-left:84px;
+  color:white;
+
+
+}
+
+.nav > li > a {
+        color: #fff;
+}
